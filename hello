@@ -1,7 +1,5 @@
 import os
 os.system("cls")
-
-
 def factorial(n):
     result = 1 
     for i in range(1,n+1):
@@ -17,12 +15,10 @@ print(f"f(1) = {V}")
 
 
 
+
 def Power (x, Y):
     result = 1 
     for i in range(1, Y+1):
         result *= x
-       
-       
     return result
-
 print (f"e = {Power (1+1/365,365)}")
